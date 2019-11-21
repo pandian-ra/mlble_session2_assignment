@@ -87,5 +87,5 @@ Epoch 00020: LearningRateScheduler setting learning rate to 0.000424869.
 [0.018119178426603322, 0.9945]
 
 # Strategy 
-1. Increased the Dropout rate to 0.2
+1. Increased the Dropout rate to 0.2 and used dropout after every connvolution except at the last layer. Not using Dropout layer at the last layer increased my model accuracy 
 2. Used 3x3 convolution and 1x1
