@@ -89,4 +89,4 @@ Epoch 00020: LearningRateScheduler setting learning rate to 0.000424869.
 # Strategy 
 1. Increased the Dropout rate to 0.2 and used dropout after every connvolution except at the last layer. Not using Dropout layer at the last layer increased my model accuracy 
 2. Tried to use like Batch( 3x3 convolution followed by 1x1 convolution) for few layer.
-3. 
+3. I've used MaxPooling only once to reduce parameters. Tried twice but the accuracy was not good.
